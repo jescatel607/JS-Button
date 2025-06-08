@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://as2.ftcdn.net/jpg/07/76/84/73/1000_F_776847303_fHT8dtOffboKzUGbO8vlUIl7eXNtSFNH.jpg"
+        alt="many cats"
+      />
+
+      <p class="instructions">
+        This is inside a small container. You can click to add to the counter or
+        hold down the button to speed up the counter.
+      </p>
+      <h2>Select your color: <span id="colorOutput"></span></h2>
+
+      <label for="rangedRed">Red:</label>
+      <input type="range" id="rangedRed" min="0" max="255" value="255" />
+
+      <label for="rangedGreen">Green:</label>
+      <input type="range" id="rangedGreen" min="0" max="255" value="255" />
+
+      <label for="rangedBlue">Blue:</label>
+      <input type="range" id="rangedBlue" min="0" max="255" value="255" />
+
+      <button id="button">Click Me!</button>
+      <p id="counter">Count: 0</p>
+      <button id="resetButton">Reset</button>
+      <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
